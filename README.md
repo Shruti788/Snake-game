@@ -28,15 +28,19 @@ You also need to ensure you have a folder named resources in the same directory 
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your username/your repository name.git
+   git clone https://github.com/Shruti788/Snake-game.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your repository name
+   cd Snake-game
    ```
-3. Run the game from your terminal:
+3. Install Pygame:
    ```bash
-   python main.py
+   pip install pygame
+   ```   
+4. Run the game:
+   ```bash
+   python snake_game.py
    ```
 
 ## 🎮 Controls
