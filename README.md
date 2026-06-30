@@ -1,6 +1,9 @@
-# Snake And Apple Game
+<h1 align="left">
+  <span>Snake And Apple Game</span>
+  <img src="resources/snake.gif" width="45" align="center">
+</h1>
 
-A classic arcade style game built with Python and the Pygame library. The objective is simple control the snake to eat the apples and grow longer, but be careful not to hit the walls or yourself!
+A classic arcade-style game built with Python and the Pygame library. The objective is simple: control the snake, eat apples, and grow longer. Be careful not to hit the walls or yourself!
 
 ## ✨ Features
 
@@ -9,6 +12,21 @@ A classic arcade style game built with Python and the Pygame library. The object
 - **Responsive Controls:** Intuitive controls using the arrow keys.
 - **Game Over Screen:** Displays your final score when the game ends.
 - **Sound Effects:** Includes background music and sound effects for eating and crashing.
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Core game logic |
+| Pygame | Graphics, audio, and game loop |
+
+## 📚 What I Learned
+
+- Game loops and event handling
+- Keyboard input management
+- Collision detection
+- Score tracking
+- Working with images and sound effects in Pygame
 
 ## 📦 Prerequisites
 
@@ -34,11 +52,7 @@ You also need to ensure you have a folder named resources in the same directory 
    ```bash
    cd Snake-game
    ```
-3. Install Pygame:
-   ```bash
-   pip install pygame
-   ```   
-4. Run the game:
+3. Run the game:
    ```bash
    python snake_game.py
    ```
